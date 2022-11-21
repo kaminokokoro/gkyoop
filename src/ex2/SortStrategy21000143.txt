@@ -1,0 +1,13 @@
+[3 9 65 87 49]
+Using Bubble Sort Algorithm:
+Before sorting: [3 9 65 87 49]
+After sorting: [3 9 49 65 87]
+Number of swap: 2
+Using Selection Sort Algorithm:
+Before sorting: [3 9 65 87 49]
+After sorting: [3 9 49 65 87]
+Number of swap: 4
+Using Insertion Sort Algorithm:
+Before sorting: [3 9 65 87 49]
+After sorting: [3 9 49 65 87]
+Number of swap: 6
