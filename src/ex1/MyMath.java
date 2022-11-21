@@ -62,17 +62,18 @@ public class MyMath {
 
         while (remainder.compareTo(BigInteger.valueOf(0))>0) {
             BigInteger temp=remainder.divide(BigInteger.valueOf(outRadix));
+            m = Integer.parseInt(remainder.subtract(temp.multiply(BigInteger.valueOf(outRadix))).toString());
             if (outRadix > 10) {
-                m = Integer.parseInt(temp.toString());
+
                 if (m >= 10) {
                     sb.append((char) ( char_55 + m));
                 } else {
                     sb.append(m);
                 }
             } else {
-                sb.append(temp.toString());
+                sb.append(m);
             }
-            remainder = remainder / outRadix;
+            remainder = temp;
         }
         return sb.reverse().toString();
     }
@@ -82,9 +83,9 @@ public class MyMath {
     }
 
     public static void main(String[] args) {
-        System.out.println(decimalTo("15",2));
-        System.out.println(toDecimal("1111",2));
-        System.out.println(toDecimal("123456789123456789",13));
+//        System.out.println(decimalTo("15",2));
+//        System.out.println(toDecimal("1111",2));
+//        System.out.println(toDecimal("123456789123456789",13));
         System.out.println(Math.pow(Math.E,4)*cos(9));
         System.out.println(toRadix("123456789123456789",13,8));
     }
