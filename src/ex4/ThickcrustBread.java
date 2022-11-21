@@ -6,7 +6,14 @@ public class ThickcrustBread extends Bread {
 
 		description = "Thick crust bread, with tomato sauce";
 	}
-  
+
+	@Override
+	public String toString() {
+		return "ThickcrustBread{" +
+				"description='" + description + '\'' +
+				'}';
+	}
+
 	public double cost() {
 		return 30.0;
 	}

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b5909b-2576-4701-b156-b69eccf75b54" name="Changes" comment="fist commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex1/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex4/Bread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/Bread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex4/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex4/Olives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/Olives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex4/ThickcrustBread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/ThickcrustBread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex4/ThincrustBread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex4/ThincrustBread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
       <recent name="C:\Users\ADMIN\IdeaProjects\thi giua ki\src\ex2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyMath">
+  <component name="RunManager" selected="Application.BreadStore">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex2.App" />
       <module name="thi giua ki" />
@@ -102,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyMath" />
         <item itemvalue="Application.BreadStore" />
+        <item itemvalue="Application.MyMath" />
         <item itemvalue="Application.ex3.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -118,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668580923413</updated>
       <workItem from="1668580925387" duration="7648000" />
-      <workItem from="1669021654339" duration="11593000" />
+      <workItem from="1669021654339" duration="12940000" />
     </task>
     <task id="LOCAL-00001" summary="fist commit">
       <created>1669042370551</created>
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669042370551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fist commit">
+      <created>1669042900740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669042900740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
